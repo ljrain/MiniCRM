@@ -1,6 +1,8 @@
 name: Download, unpack and commit the solution to git
 run-name: Getting ${{ github.event.inputs.solution_name }} from pipelines host environment and committing
 on:
+  repository_dispatch:
+    types: [Download_Unpack_Commit_Solution]
   workflow_dispatch:
     inputs:
       artifact_url:
