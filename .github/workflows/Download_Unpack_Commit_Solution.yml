@@ -52,6 +52,7 @@ jobs:
         run: |
             $aadHost = "login.microsoftonline.com"
             $url = "${{ github.event.inputs.artifact_url }}"
+            echo $url
             $options = [System.StringSplitOptions]::RemoveEmptyEntries
             $dataverseHost = $url.Split("://", $options)[1].Split("/")[0]
 
