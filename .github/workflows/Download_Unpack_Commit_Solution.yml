@@ -35,7 +35,7 @@ jobs:
             ref: ${{ github.event.inputs.source_branch }}
       # echo parameters passed in
       - name: echo-parameters
-        run: echo artifact_url
+        run: echo ${{ github.event.client_payload }}
 
       # Commit changes to the existing or new branch
       - name: create new branch if specified
