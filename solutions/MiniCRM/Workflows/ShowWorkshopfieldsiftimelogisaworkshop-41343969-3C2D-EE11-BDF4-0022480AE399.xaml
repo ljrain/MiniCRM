@@ -60,8 +60,8 @@
                 <mxswa:ActivityReference.Properties>
                   <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
                   <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
-                    <Sequence DisplayName="SetVisibilityStep1: New Action">
-                      <mcwc:SetVisibility ControlId="ljr_workshopvalue" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="ljr_timelog" IsVisible="True" />
+                    <Sequence DisplayName="SetVisibilityStep3: Show Workshop Lookup">
+                      <mcwc:SetVisibility ControlId="ljr_workshop" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="ljr_timelog" IsVisible="True" />
                     </Sequence>
                   </sco:Collection>
                 </mxswa:ActivityReference.Properties>
@@ -89,8 +89,8 @@
                 <mxswa:ActivityReference.Properties>
                   <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
                   <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
-                    <Sequence DisplayName="SetVisibilityStep2: New Action">
-                      <mcwc:SetVisibility ControlId="ljr_workshopvalue" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="ljr_timelog" IsVisible="False" />
+                    <Sequence DisplayName="SetVisibilityStep4: Hide Workshop Lookup">
+                      <mcwc:SetVisibility ControlId="ljr_workshop" ControlType="standard" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="ljr_timelog" IsVisible="False" />
                     </Sequence>
                   </sco:Collection>
                 </mxswa:ActivityReference.Properties>

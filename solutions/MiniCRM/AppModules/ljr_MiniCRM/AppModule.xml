@@ -14,6 +14,7 @@
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="1" schemaName="ljr_project" />
     <AppModuleComponent type="1" schemaName="ljr_timelog" />
+    <AppModuleComponent type="1" schemaName="ljr_workshop" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
     <AppModuleComponent type="26" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001031}" />
@@ -51,7 +52,6 @@
     <AppModuleComponent type="60" id="{f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e}" />
     <AppModuleComponent type="60" id="{7bb87dfd-ec3e-4ed9-8e3e-5725d3067295}" />
     <AppModuleComponent type="60" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
-    <AppModuleComponent type="60" id="{bc0f68dd-a4b1-4a8f-bed3-c8f5db2f89cf}" />
     <AppModuleComponent type="62" schemaName="ljr_MiniCRM" />
   </AppModuleComponents>
   <AppModuleRoleMaps>

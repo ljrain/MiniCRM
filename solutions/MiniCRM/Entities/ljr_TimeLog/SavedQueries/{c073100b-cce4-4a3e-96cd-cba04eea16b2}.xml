@@ -19,7 +19,6 @@
           <cell name="ljr_duration" width="100" />
           <cell name="ljr_projectcode" width="113" />
           <cell name="ljr_isworkshop" width="111" />
-          <cell name="ljr_workshopvalue" width="133" />
         </row>
       </grid>
     </layoutxml>
@@ -41,7 +40,6 @@
           <attribute name="ljr_duration" />
           <attribute name="ljr_projectcode" />
           <attribute name="ljr_isworkshop" />
-          <attribute name="ljr_workshopvalue" />
         </entity>
       </fetch>
     </fetchxml>
