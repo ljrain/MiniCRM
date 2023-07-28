@@ -27,9 +27,9 @@ permissions:
   contents: write
 env:
 #edit your values here
-  ENVIRONMENT_URL: '<<Power Apps DEV URL>>'
-  CLIENT_ID: '<<App Registration Client ID>>'
-  TENANT_ID: '<<Tenant ID>>'
+  ENVIRONMENT_URL: 'https://rain-dev.crm.dynamics.com/'
+  CLIENT_ID: '6840fc50-3784-4c83-aa3c-15750b251166'
+  TENANT_ID: 'af6eefb2-9b09-4b5f-8f81-a14f78217c9d'
 
 jobs:
   export-from-dev:
