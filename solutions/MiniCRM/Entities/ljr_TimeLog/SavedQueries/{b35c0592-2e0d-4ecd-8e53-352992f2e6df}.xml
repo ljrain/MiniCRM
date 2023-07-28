@@ -19,15 +19,50 @@
           <cell name="ljr_duration" width="100" />
           <cell name="ljr_projectcode" width="113" />
           <cell name="ljr_isworkshop" width="111" />
-          <cell name="ljr_workshopvalue" width="133" />
         </row>
+        <controlDescriptions>
+          <controlDescription>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+              <parameters />
+            </customControl>
+            <customControl name="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" formFactor="0">
+              <parameters>
+                <data-set name="Calendar">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                  <StartDate>ljr_starttime</StartDate>
+                  <Description>ljr_projectcode</Description>
+                  <EndDate>ljr_endtime</EndDate>
+                </data-set>
+              </parameters>
+            </customControl>
+            <customControl name="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" formFactor="1">
+              <parameters>
+                <data-set name="Calendar">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                  <StartDate>ljr_starttime</StartDate>
+                  <Description>ljr_projectcode</Description>
+                  <EndDate>ljr_endtime</EndDate>
+                </data-set>
+              </parameters>
+            </customControl>
+            <customControl name="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" formFactor="2">
+              <parameters>
+                <data-set name="Calendar">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                  <StartDate>ljr_starttime</StartDate>
+                  <Description>ljr_projectcode</Description>
+                  <EndDate>ljr_endtime</EndDate>
+                </data-set>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
       </grid>
     </layoutxml>
     <querytype>0</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="ljr_timelog">
-          <attribute name="ljr_timelogid" />
           <attribute name="ljr_name" />
           <attribute name="createdon" />
           <order attribute="ljr_name" descending="false" />
@@ -41,7 +76,7 @@
           <attribute name="ljr_duration" />
           <attribute name="ljr_projectcode" />
           <attribute name="ljr_isworkshop" />
-          <attribute name="ljr_workshopvalue" />
+          <attribute name="ljr_timelogid" />
         </entity>
       </fetch>
     </fetchxml>

@@ -17,15 +17,36 @@
           <cell name="ljr_notes" width="239" />
           <cell name="ljr_projectcode" width="113" />
           <cell name="ljr_isworkshop" width="111" />
-          <cell name="ljr_workshopvalue" width="133" />
         </row>
+        <controlDescriptions>
+          <controlDescription>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+              <parameters />
+            </customControl>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="1">
+              <parameters />
+            </customControl>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="2">
+              <parameters />
+            </customControl>
+            <customControl name="MscrmControls.ActivityCalendarControl.ActivityCalendarControl">
+              <parameters>
+                <data-set name="Calendar">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                  <StartDate>ljr_starttime</StartDate>
+                  <Description>ljr_projectcode</Description>
+                  <EndDate>ljr_endtime</EndDate>
+                </data-set>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
       </grid>
     </layoutxml>
     <querytype>0</querytype>
     <fetchxml>
       <fetch version="1.0" output-format="xml-platform" mapping="logical">
         <entity name="ljr_timelog">
-          <attribute name="ljr_timelogid" />
           <attribute name="ljr_starttime" />
           <attribute name="ljr_endtime" />
           <attribute name="ljr_duration" />
@@ -34,7 +55,7 @@
           <attribute name="ljr_notes" />
           <attribute name="ljr_projectcode" />
           <attribute name="ljr_isworkshop" />
-          <attribute name="ljr_workshopvalue" />
+          <attribute name="ljr_timelogid" />
         </entity>
       </fetch>
     </fetchxml>

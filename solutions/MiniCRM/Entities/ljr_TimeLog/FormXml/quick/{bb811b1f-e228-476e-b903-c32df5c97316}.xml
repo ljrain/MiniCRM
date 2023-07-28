@@ -91,14 +91,6 @@
                         <control id="ljr_isworkshop" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ljr_isworkshop" disabled="false" />
                       </cell>
                     </row>
-                    <row>
-                      <cell id="{068305c0-9ca6-48ab-aa1c-389f28fca5dc}" locklevel="0" rowspan="1" colspan="1">
-                        <labels>
-                          <label description="Workshop Value" languagecode="1033" />
-                        </labels>
-                        <control id="ljr_workshopvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="ljr_workshopvalue" disabled="false" />
-                      </cell>
-                    </row>
                   </rows>
                 </section>
               </sections>
