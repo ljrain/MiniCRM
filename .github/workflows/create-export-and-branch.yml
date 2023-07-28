@@ -48,8 +48,7 @@ jobs:
       with:
         environment-url: ${{ env.ENVIRONMENT_URL }}
         app-id: ${{ env.CLIENT_ID }}
-        # client-secret: ${{ secrets.RAIN_CLIENT_SECRET }}
-        client-secret: "Lf18Q~LHDb685c5lMbytOSYp4SUZpVuA4r4lMbSY"
+        client-secret: ${{ secrets.RAIN_CLIENT_SECRET }}
         tenant-id: ${{ env.TENANT_ID }}
 
 
