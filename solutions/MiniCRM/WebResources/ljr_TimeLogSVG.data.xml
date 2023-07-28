@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{32666ba4-d12b-ee11-bdf4-002248045b52}</WebResourceId>
+  <Name>ljr_TimeLogSVG</Name>
+  <DisplayName>Time Log SVG</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ljr_TimeLogSVG32666BA4-D12B-EE11-BDF4-002248045B52</FileName>
+</WebResource>
