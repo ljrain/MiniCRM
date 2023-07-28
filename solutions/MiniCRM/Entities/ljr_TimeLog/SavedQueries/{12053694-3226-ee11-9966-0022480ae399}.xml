@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{12053694-3226-ee11-9966-0022480ae399}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ljr_name" select="1" icon="1" preview="1">
+        <row name="result" id="ljr_timelogid">
+          <cell name="ljr_project" width="210" />
+          <cell name="ljr_starttime" width="128" />
+          <cell name="ljr_endtime" width="125" />
+          <cell name="ljr_duration" width="105" />
+          <cell name="ljr_notes" width="239" />
+          <cell name="ljr_projectcode" width="113" />
+          <cell name="ljr_isworkshop" width="111" />
+          <cell name="ljr_workshopvalue" width="133" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ljr_timelog">
+          <attribute name="ljr_timelogid" />
+          <attribute name="ljr_starttime" />
+          <attribute name="ljr_endtime" />
+          <attribute name="ljr_duration" />
+          <attribute name="ljr_project" />
+          <order attribute="ljr_starttime" descending="false" />
+          <attribute name="ljr_notes" />
+          <attribute name="ljr_projectcode" />
+          <attribute name="ljr_isworkshop" />
+          <attribute name="ljr_workshopvalue" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="All Time Logs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

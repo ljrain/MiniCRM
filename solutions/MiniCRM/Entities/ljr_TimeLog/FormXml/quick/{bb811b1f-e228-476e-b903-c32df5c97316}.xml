@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bb811b1f-e228-476e-b903-c32df5c97316}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{b3a241d7-8d5b-44ee-a4f5-5fe6cfe95101}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{5dbad508-ae04-4af3-a9b1-f272c7582871}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f5ca6ee2-578a-4799-a863-9eb0464ef4c3}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ljr_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eaa91362-3e5d-40ec-aba5-03dcf31c0dfc}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9b412d90-6f2e-4103-9656-8125502f731c}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Start Time" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_starttime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ljr_starttime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{334e3e40-cbf2-4463-b5fc-4116d867c1a5}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="End Time" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_endtime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ljr_endtime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b093a008-5a50-4f74-ac17-2925c6597698}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_notes" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ljr_notes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e1b68f9b-ef23-47ac-92b6-87dcd5d6a5ab}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_project" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ljr_project" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c1d1cfa8-dfc1-4410-8896-26d4bf99e824}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_duration" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ljr_duration" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1112f2d0-3aa0-44db-ae34-1934fdda3c91}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Project Code" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_projectcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ljr_projectcode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c7294bf-7cf0-4477-ad27-0e6cb4d43635}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Is Workshop" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_isworkshop" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ljr_isworkshop" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{068305c0-9ca6-48ab-aa1c-389f28fca5dc}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Workshop Value" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_workshopvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="ljr_workshopvalue" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

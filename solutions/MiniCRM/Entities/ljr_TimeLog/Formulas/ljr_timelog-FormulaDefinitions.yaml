@@ -1,0 +1,1 @@
+ljr_duration: =DateDiff(ljr_starttime,ljr_endtime,TimeUnit.Minutes)

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ljr_project" />
+  <EntityRelationship Name="business_unit_ljr_timelog" />
+  <EntityRelationship Name="ljr_ljr_project_Account_account" />
+  <EntityRelationship Name="ljr_ljr_timelog_Project_ljr_project" />
+  <EntityRelationship Name="lk_ljr_project_createdby" />
+  <EntityRelationship Name="lk_ljr_project_modifiedby" />
+  <EntityRelationship Name="lk_ljr_timelog_createdby" />
+  <EntityRelationship Name="lk_ljr_timelog_modifiedby" />
+  <EntityRelationship Name="owner_ljr_project" />
+  <EntityRelationship Name="owner_ljr_timelog" />
+  <EntityRelationship Name="team_ljr_project" />
+  <EntityRelationship Name="team_ljr_timelog" />
+  <EntityRelationship Name="TransactionCurrency_ljr_TimeLog" />
+  <EntityRelationship Name="user_ljr_project" />
+  <EntityRelationship Name="user_ljr_timelog" />
+</EntityRelationships>

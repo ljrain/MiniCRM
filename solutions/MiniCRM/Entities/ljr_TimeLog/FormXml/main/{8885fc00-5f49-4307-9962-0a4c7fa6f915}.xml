@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8885fc00-5f49-4307-9962-0a4c7fa6f915}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{e69fcd2e-a951-4c5e-879b-580b6ed6f98a}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{08f6448a-0b42-494e-bf1c-3f234eae7378}" name="GENERAL" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{c7b5167a-a41f-4086-b587-2d8efba5a657}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{a3c4de71-e256-42cb-9a6f-f91e07d43df9}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Start Time" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_starttime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ljr_starttime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{24250fb0-d744-4a2c-b281-a27fdc194636}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Project Code" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_projectcode" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ljr_projectcode" disabled="false" />
+                      </cell>
+                      <cell id="{4756a131-b8b6-4a6f-9e29-51e133c14263}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="End Time" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_endtime" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ljr_endtime" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4eed83b9-c56e-4bca-98f0-aa34a1ee109e}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Project" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_project" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ljr_project" disabled="false" />
+                      </cell>
+                      <cell id="{43a1ecbe-7a4d-414b-94e5-3437b8e0d87e}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Workshop Value" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_workshopvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="ljr_workshopvalue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b4513856-f0b1-4d51-a3b9-8c3c42d1e6e2}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Is Workshop" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_isworkshop" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ljr_isworkshop" disabled="false" uniqueid="{cb8abb41-5ae5-4ea2-bb0f-1bbb15e4f8a8}" />
+                      </cell>
+                      <cell locklevel="0" id="{be074d28-65b7-4b18-8e60-82cd33f0cc2e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c2579b82-0d1d-429d-ad68-fe59c46932cc}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="Duration" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_duration" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="ljr_duration" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{4711ed1b-9ca0-4e28-b529-950b60e46704}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="NOTES_section_4" id="0ad94e37-ad69-40dd-b118-8d7a1177040b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{02789910-fb83-4a08-b283-4a01d3317182}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a997a033-6d90-4573-8e32-9d6b3a89e249}" locklevel="0" rowspan="12" colspan="1" showlabel="false">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_notes" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="ljr_notes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="null_section_3" id="ee766727-c68c-4902-a88b-d98f2ff68a0b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Admin" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{4e29242d-c433-4df0-b999-143e2318c1f7}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2f581d6b-d497-4110-880a-5eabd13dd145}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ea20a9cb-238c-4aee-ae75-ee2c3e7bfcc9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c74dce4d-e9c5-40a8-b5b0-a8237ff65533}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{5098c86e-21ab-4d4e-bbc0-56686ec38cb8}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{dfd1bdff-4d7a-41de-bb04-6dc6e5b3fb09}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dd133fb4-9f0d-4a62-90fc-97d1fc842ee9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5026124b-224a-4941-ba41-320c348767e1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d0c7990e-1ba7-45fc-ade2-74926167c8ab}" colspan="1" rowspan="1">
+              <labels>
+                <label description="Name" languagecode="1033" />
+              </labels>
+              <control id="header_ljr_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ljr_name" disabled="true" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{fe2b85bb-d82a-4964-86e2-03e758ed76be}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{83f544e2-5294-41ce-88e8-c2face70c7a1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{feb9e63d-23e6-4c76-b62e-842a7e969706}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7cd1e75c-99fc-4eef-87c0-0f0ceca16555}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{cb8abb41-5ae5-4ea2-bb0f-1bbb15e4f8a8}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ljr_isworkshop</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ljr_isworkshop</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ljr_isworkshop</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ljr_isworkshop</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
