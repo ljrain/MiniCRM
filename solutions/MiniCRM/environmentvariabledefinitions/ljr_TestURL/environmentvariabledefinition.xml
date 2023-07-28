@@ -1,0 +1,14 @@
+<environmentvariabledefinition schemaname="ljr_TestURL">
+  <defaultvalue>https://www.bing.com</defaultvalue>
+  <description default="Test environment variable for holding a URL and how it is handled in Pipelines">
+    <label description="Test environment variable for holding a URL and how it is handled in Pipelines" languagecode="1033" />
+  </description>
+  <displayname default="Test URL">
+    <label description="Test URL" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.7</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>

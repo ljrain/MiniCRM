@@ -427,14 +427,14 @@
                       </cell>
                     </row>
                     <row>
-                      <cell locklevel="0" id="{429ef147-8baf-4c85-8327-5e87f847a559}" rowspan="4" colspan="1" auto="false">
+                      <cell locklevel="0" id="{429ef147-8baf-4c85-8327-5e87f847a559}" rowspan="4" colspan="1" auto="true">
                         <labels>
                           <label description="Active Projects" languagecode="1033" />
                         </labels>
                         <control indicationOfSubgrid="true" id="Subgrid_new_1" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
                           <parameters>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <AutoExpand>Fixed</AutoExpand>
+                            <RecordsPerPage>15</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
                             <EnableQuickFind>false</EnableQuickFind>
                             <EnableViewPicker>false</EnableViewPicker>
                             <EnableChartPicker>true</EnableChartPicker>
