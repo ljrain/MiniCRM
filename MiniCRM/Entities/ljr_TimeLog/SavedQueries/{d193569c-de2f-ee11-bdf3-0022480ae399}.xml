@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{d193569c-de2f-ee11-bdf3-0022480ae399}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ljr_name" select="1" icon="1" preview="1">
+        <row name="result" id="ljr_timelogid">
+          <cell name="ljr_workshop" width="300" />
+          <cell name="ljr_starttime" width="202" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="ljr_timelog">
+          <attribute name="ljr_timelogid" />
+          <filter type="and">
+            <condition attribute="ljr_isworkshop" operator="eq" value="1" />
+          </filter>
+          <attribute name="ljr_workshop" />
+          <attribute name="ljr_starttime" />
+          <order attribute="ljr_starttime" descending="true" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.8</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Workshop Chart" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Show the number of workshops delivered in a given period." languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{a327097c-6c30-ee11-bdf3-0022480ae939}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ljr_name" select="1" icon="1" preview="1">
+        <row name="result" id="ljr_timelogid">
+          <cell name="ljr_durationhours" width="128" />
+          <cell name="ljr_isworkshop" width="111" />
+          <cell name="ljr_starttime" width="100" />
+          <cell name="ljr_projectcode" width="113" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="ljr_timelog">
+          <attribute name="ljr_timelogid" />
+          <attribute name="ljr_durationhours" />
+          <attribute name="ljr_isworkshop" />
+          <attribute name="ljr_starttime" />
+          <attribute name="ljr_projectcode" />
+          <order attribute="ljr_starttime" descending="true" />
+          <filter type="and">
+            <condition attribute="ljr_starttime" operator="this-week" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.8</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Current Week Summary" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{40d74d34-082e-ee11-bdf3-0022480ae939}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ljr_name" select="1" icon="1" preview="1">
+        <row name="result" id="ljr_timelogid">
+          <cell name="ljr_projectcode" width="113" />
+          <cell name="ljr_duration" width="100" />
+          <cell name="ljr_durationhours" width="128" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="ljr_timelog">
+          <attribute name="ljr_timelogid" />
+          <attribute name="ljr_projectcode" />
+          <attribute name="ljr_duration" />
+          <order attribute="ljr_projectcode" descending="false" />
+          <filter type="and">
+            <condition attribute="ljr_starttime" operator="today" />
+          </filter>
+          <attribute name="ljr_durationhours" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.8</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Today's Work Summary" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

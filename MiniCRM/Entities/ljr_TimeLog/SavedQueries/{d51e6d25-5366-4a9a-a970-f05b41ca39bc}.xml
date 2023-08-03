@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d51e6d25-5366-4a9a-a970-f05b41ca39bc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ljr_name" select="1" icon="1" preview="1">
+        <row name="result" id="ljr_timelogid">
+          <cell name="ljr_starttime" width="100" />
+          <cell name="ljr_endtime" width="100" />
+          <cell name="ljr_notes" width="100" />
+          <cell name="ljr_project" width="100" />
+          <cell name="ljr_duration" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ljr_timelog">
+          <attribute name="ljr_timelogid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="ljr_name" operator="like" value="{0}" />
+          </filter>
+          <attribute name="ljr_starttime" />
+          <attribute name="ljr_endtime" />
+          <attribute name="ljr_notes" />
+          <attribute name="ljr_project" />
+          <attribute name="ljr_duration" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Time Logs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
