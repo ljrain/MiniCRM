@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.23064.186" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.23071.168" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>MiniCRM</UniqueName>
     <LocalizedNames>
       <LocalizedName description="MiniCRM" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.11</Version>
+    <Version>1.0.0.17</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>LouRainaldi</UniqueName>
@@ -206,11 +206,11 @@
         <Dependent type="68" id="{b8257c70-a8e0-44de-8d60-58a8f95bf4b0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2306.4019)" />
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2307.1015)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Time Log" id="{8885fc00-5f49-4307-9962-0a4c7fa6f915}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2306.4019)" />
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2307.1015)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Project" id="{7aa8980a-1af3-437e-ba82-43e12a8b9648}" />
       </MissingDependency>
       <MissingDependency>

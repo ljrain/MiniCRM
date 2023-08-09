@@ -11,8 +11,13 @@
       <grid name="resultset" jump="ljr_name" select="1" icon="1" preview="1">
         <row name="result" id="ljr_timelogid">
           <cell name="ljr_projectcode" width="113" />
-          <cell name="ljr_duration" width="100" />
           <cell name="ljr_durationhours" width="128" />
+          <cell name="ljr_starttime" width="100" />
+          <cell name="ljr_endtime" width="100" />
+          <cell name="ljr_isworkshop" width="111" />
+          <cell name="ljr_workshop" width="100" />
+          <cell name="ljr_project" width="100" />
+          <cell name="ljr_notes" width="100" />
         </row>
       </grid>
     </layoutxml>
@@ -22,12 +27,17 @@
         <entity name="ljr_timelog">
           <attribute name="ljr_timelogid" />
           <attribute name="ljr_projectcode" />
-          <attribute name="ljr_duration" />
           <order attribute="ljr_projectcode" descending="false" />
           <filter type="and">
             <condition attribute="ljr_starttime" operator="today" />
           </filter>
           <attribute name="ljr_durationhours" />
+          <attribute name="ljr_starttime" />
+          <attribute name="ljr_endtime" />
+          <attribute name="ljr_isworkshop" />
+          <attribute name="ljr_workshop" />
+          <attribute name="ljr_project" />
+          <attribute name="ljr_notes" />
         </entity>
       </fetch>
     </fetchxml>
