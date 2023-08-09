@@ -84,7 +84,7 @@ jobs:
         with:
           solution-file: "${{ github.event.inputs.solution_name }}.zip"
           #solution-folder: "${{ github.event.repository.name }}"
-          solution-folder: "out/solutions/${{ github.event.inputs.solution_name }}"
+          solution-folder: "${{ github.event.inputs.solution_name }}"
           solution-type: 'Both'
           process-canvas-apps: false
           overwrite-files: true
