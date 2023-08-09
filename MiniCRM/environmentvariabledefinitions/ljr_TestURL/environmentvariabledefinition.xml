@@ -1,5 +1,4 @@
 <environmentvariabledefinition schemaname="ljr_TestURL">
-  <defaultvalue>https://www.bing.com</defaultvalue>
   <description default="Test environment variable for holding a URL and how it is handled in Pipelines">
     <label description="Test environment variable for holding a URL and how it is handled in Pipelines" languagecode="1033" />
   </description>
