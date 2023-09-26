@@ -5,6 +5,7 @@
   <EntityRelationship Name="ljr_ljr_project_Account_account" />
   <EntityRelationship Name="ljr_ljr_timelog_Project_ljr_project" />
   <EntityRelationship Name="ljr_ljr_timelog_Workshop_ljr_workshop" />
+  <EntityRelationship Name="ljr_task_Project_ljr_project" />
   <EntityRelationship Name="lk_ljr_project_createdby" />
   <EntityRelationship Name="lk_ljr_project_modifiedby" />
   <EntityRelationship Name="lk_ljr_timelog_createdby" />

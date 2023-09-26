@@ -2,26 +2,12 @@
 <savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <savedquery>
     <IsCustomizable>1</IsCustomizable>
-    <CanBeDeleted>0</CanBeDeleted>
-    <isquickfindquery>1</isquickfindquery>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
     <isprivate>0</isprivate>
     <isdefault>1</isdefault>
-    <savedqueryid>{d51e6d25-5366-4a9a-a970-f05b41ca39bc}</savedqueryid>
-    <layoutxml>
-      <grid name="resultset" jump="ljr_name" select="1" icon="1" preview="1">
-        <row name="result" id="ljr_timelogid">
-          <cell name="ljr_starttime" width="100" />
-          <cell name="ljr_endtime" width="100" />
-          <cell name="ljr_notes" width="100" />
-          <cell name="ljr_durationhours" width="128" />
-          <cell name="ljr_projectcode" width="113" />
-          <cell name="ljr_project" width="100" />
-          <cell name="ljr_isworkshop" width="111" />
-          <cell name="ljr_workshop" width="100" />
-        </row>
-      </grid>
-    </layoutxml>
-    <querytype>4</querytype>
+    <savedqueryid>{daac6ea3-1be3-6742-cacb-3f2b48ff1de5}</savedqueryid>
+    <querytype>1048576</querytype>
     <fetchxml>
       <fetch version="1.0" mapping="logical">
         <entity name="ljr_timelog">
@@ -52,7 +38,7 @@
     </fetchxml>
     <IntroducedVersion>1.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Quick Find Active Time Logs" languagecode="1033" />
+      <LocalizedName description="ljr_TimeLog Copilot View" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>
