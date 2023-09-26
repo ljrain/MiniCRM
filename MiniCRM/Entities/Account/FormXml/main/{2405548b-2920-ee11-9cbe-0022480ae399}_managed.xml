@@ -33,19 +33,35 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{75cfe161-9eca-492d-af38-cbf1c78c534e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="accountcategorycode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="accountcategorycode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41bae7fc-8c26-4241-b625-debf706165a4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="accountnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="accountnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2deae9f5-842f-4ddb-bc42-3eaa6a89ef54}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_duedate" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ljr_duedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{3441a91e-47c5-672c-7a20-902d6baa9036}" showlabel="true" labelid="{edd919e1-51c4-4c66-8fb2-f4c62cde7e1b}">
                         <labels>
                           <label description="Phone" languagecode="1033" />
                         </labels>
                         <control id="telephone1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="telephone1" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{e6441984-4343-813a-aa7e-e2747ad35390}" showlabel="true" labelid="{28b66187-6c56-43ec-8b4a-e352cc1247a2}">
-                        <labels>
-                          <label description="Website" languagecode="1033" />
-                        </labels>
-                        <control id="websiteurl" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="websiteurl" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -233,6 +249,60 @@
           <columns>
             <column width="34%">
               <sections>
+                <section name="DETAILS_TAB_WEB_SITE" id="92c1eb13-da57-499d-beb4-3139efd7e40f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Web Site" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{98782ed9-62c9-48b9-ae21-b584291d7143}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b56eabe9-46bc-481b-9f01-558ff62d3374}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_username" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ljr_username" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7cc0f744-beba-4123-b88f-1c862830b229}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_password" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ljr_password" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{612bcd50-bf27-4843-85b1-b384b1c52fbc}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="websiteurl" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="websiteurl" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13fda889-5017-4f8c-8192-a8581cbf0496}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_password" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ljr_password" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0bf7e7ce-c93f-4dec-81c1-12b56626476d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_username" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ljr_username" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
                 <section name="COMPANY_PROFILE" showlabel="true" showbar="false" id="{ca8587c5-18c0-cac1-7c34-6c639eade090}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{4f593747-04ed-4684-af86-19e7de4d8dc1}">
                   <labels>
                     <label description="COMPANY PROFILE" languagecode="1033" />

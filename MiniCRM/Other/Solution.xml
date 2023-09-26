@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.23071.168" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.23083.184" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>MiniCRM</UniqueName>
     <LocalizedNames>
       <LocalizedName description="MiniCRM" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.17</Version>
+    <Version>1.0.0.27</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>LouRainaldi</UniqueName>
@@ -79,10 +79,12 @@
     </Publisher>
     <RootComponents>
       <RootComponent type="1" schemaName="account" behavior="2" />
+      <RootComponent type="1" schemaName="appointment" behavior="2" />
       <RootComponent type="1" schemaName="contact" behavior="2" />
       <RootComponent type="1" schemaName="ljr_project" behavior="0" />
       <RootComponent type="1" schemaName="ljr_timelog" behavior="0" />
       <RootComponent type="1" schemaName="ljr_workshop" behavior="0" />
+      <RootComponent type="1" schemaName="task" behavior="2" />
       <RootComponent type="29" id="{41343969-3c2d-ee11-bdf4-0022480ae399}" behavior="0" />
       <RootComponent type="300" schemaName="ljr_worksummary_1b522" behavior="0" />
       <RootComponent type="31" id="{59d3f18d-f22b-ee11-bdf4-0022480ae399}" behavior="0" />
@@ -95,97 +97,103 @@
     <MissingDependencies>
       <MissingDependency>
         <Required type="26" schemaName="All Accounts" displayName="All Accounts" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{65ffaf9a-e8c5-432d-860b-32f841b00d87}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
+        <Required type="59" schemaName="Tasks by Month Due" displayName="Tasks by Month Due" parentSchemaName="task" parentDisplayName="Task" solution="msdynce_AppCommon (9.0.4.0066)" id="{9e6a8b06-6d14-46e6-bbf5-95c388c6eb7a}">
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Time Log" id="{8885fc00-5f49-4307-9962-0a4c7fa6f915}" />
+      </MissingDependency>
+      <MissingDependency>
         <Required type="60" displayName="Account Reference Panel" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{098ae145-1567-41ec-8398-86dbaac70c9b}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="Social Profiles" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{2205c86d-ed88-4a2f-a447-3b86a8781f2e}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="60" displayName="Account - MiniCRM" parentDisplayName="Account" id="{2405548b-2920-ee11-9cbe-0022480ae399}" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="60" displayName="Live Persona Card Form" parentDisplayName="Contact" solution="msdynce_AppCommonPatch201904 (9.0.23064.10002)" id="{449faa0e-f471-48ec-87d0-4719909546d2}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+        <Required type="60" displayName="Live Persona Card Form" parentDisplayName="Contact" solution="msdynce_AppCommonPatch201904 (9.0.23083.10004)" id="{449faa0e-f471-48ec-87d0-4719909546d2}">
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="Contact Quick Create" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="Account Hierarchy Tile Form" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{69cff312-cfb6-4289-9631-249ab85d2c62}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="Social Profiles" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{7bb87dfd-ec3e-4ed9-8e3e-5725d3067295}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="account card" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="Contact Quick Form" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="Account Quick Create" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="Contact Reference Panel" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{d880c3cf-80e2-42f3-82f9-24d040d09f17}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
         <Required type="60" displayName="Recent Cases and Entitlements" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{f3b707fb-3b5f-45f9-9c6b-5e573bb5d19e}">
-          <package>msdynce_AppCommonAnchor (9.0.23064.10002)</package>
+          <package>msdynce_AppCommonAnchor (9.0.23083.10004)</package>
         </Required>
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
@@ -194,23 +202,23 @@
         <Dependent type="80" schemaName="ljr_MiniCRM" displayName="Mini CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" displayName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" solution="msdyn_UCICalendar (1.0.0.2947)" />
+        <Required type="66" schemaName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" displayName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" solution="msdyn_UCICalendar (1.0.0.3041)" />
         <Dependent type="26" schemaName="All Time Logs" displayName="All Time Logs" parentSchemaName="ljr_timelog" parentDisplayName="Time Log" id="{12053694-3226-ee11-9966-0022480ae399}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" displayName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" solution="msdyn_UCICalendar (1.0.0.2947)" />
+        <Required type="66" schemaName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" displayName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" solution="msdyn_UCICalendar (1.0.0.3041)" />
         <Dependent type="26" schemaName="Active Time Logs" displayName="Active Time Logs" parentSchemaName="ljr_timelog" parentDisplayName="Time Log" id="{b35c0592-2e0d-4ecd-8e53-352992f2e6df}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" displayName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" solution="msdyn_UCICalendar (1.0.0.2947)" />
+        <Required type="66" schemaName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" displayName="MscrmControls.ActivityCalendarControl.ActivityCalendarControl" solution="msdyn_UCICalendar (1.0.0.3041)" />
         <Dependent type="68" id="{b8257c70-a8e0-44de-8d60-58a8f95bf4b0}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2307.1015)" />
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2308.3014)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Time Log" id="{8885fc00-5f49-4307-9962-0a4c7fa6f915}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2307.1015)" />
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2308.3014)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Project" id="{7aa8980a-1af3-437e-ba82-43e12a8b9648}" />
       </MissingDependency>
       <MissingDependency>
@@ -218,15 +226,15 @@
         <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=ljr_MiniCRM,settingdefinitionid.uniquename=AllowNotificationsEarlyAccess" id.parentappmoduleid.uniquename="ljr_MiniCRM" id.settingdefinitionid.uniquename="AllowNotificationsEarlyAccess" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="SettingDefinition" displayName="AsyncOnLoad" solution="SettingDefinitionsData (9.1.22112.221109001)" id.uniquename="AsyncOnLoad" />
+        <Required type="SettingDefinition" displayName="AsyncOnLoad" solution="SettingDefinitionsData (9.1.23083.230816003)" id.uniquename="AsyncOnLoad" />
         <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=ljr_MiniCRM,settingdefinitionid.uniquename=AsyncOnLoad" id.parentappmoduleid.uniquename="ljr_MiniCRM" id.settingdefinitionid.uniquename="AsyncOnLoad" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="SettingDefinition" displayName="AsyncOnSave" solution="SettingDefinitionsData (9.1.22112.221109001)" id.uniquename="AsyncOnSave" />
+        <Required type="SettingDefinition" displayName="AsyncOnSave" solution="SettingDefinitionsData (9.1.23083.230816003)" id.uniquename="AsyncOnSave" />
         <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=ljr_MiniCRM,settingdefinitionid.uniquename=AsyncOnSave" id.parentappmoduleid.uniquename="ljr_MiniCRM" id.settingdefinitionid.uniquename="AsyncOnSave" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="SettingDefinition" displayName="FluentThemingPreview" solution="msdyn_PowerAppsThemingSettings (1.0.0.8)" id.uniquename="FluentThemingPreview" />
+        <Required type="SettingDefinition" displayName="FluentThemingPreview" solution="msdyn_PowerAppsThemingSettings (1.0.0.9)" id.uniquename="FluentThemingPreview" />
         <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=ljr_MiniCRM,settingdefinitionid.uniquename=FluentThemingPreview" id.parentappmoduleid.uniquename="ljr_MiniCRM" id.settingdefinitionid.uniquename="FluentThemingPreview" />
       </MissingDependency>
       <MissingDependency>
