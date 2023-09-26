@@ -96,6 +96,24 @@
                         <control id="ljr_workshop" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ljr_workshop" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell locklevel="0" id="{90f92dfb-fa75-4755-b7f9-524cdc2d5e3e}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Workshop" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1695745375317" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="ljr_workshop">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="ljr_workshop"&gt;2c673226-5040-4501-9492-474a5c720e33&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell locklevel="0" id="{89b105dd-3d64-4409-aaf1-d02bb4339786}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="NOTES_section_4" id="0ad94e37-ad69-40dd-b118-8d7a1177040b" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
