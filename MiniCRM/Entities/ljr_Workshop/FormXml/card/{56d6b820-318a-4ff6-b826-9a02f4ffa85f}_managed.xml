@@ -18,6 +18,15 @@
                   <labels>
                     <label description="ColorStrip" languagecode="1033" />
                   </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ec6b0eca-d317-45ce-9662-3023c761e992}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
                 </section>
               </sections>
             </column>
@@ -81,6 +90,11 @@
                         </labels>
                       </cell>
                       <cell id="{8460c9c7-e1ee-473a-b0fc-282bc9726524}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{88e0cb0e-50a2-44d3-a88c-0a41b4dd0932}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>

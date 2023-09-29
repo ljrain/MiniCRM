@@ -14,6 +14,7 @@
     <AppModuleComponent type="1" schemaName="appointment" />
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="1" schemaName="email" />
+    <AppModuleComponent type="1" schemaName="feedback" />
     <AppModuleComponent type="1" schemaName="ljr_project" />
     <AppModuleComponent type="1" schemaName="ljr_timelog" />
     <AppModuleComponent type="1" schemaName="ljr_workshop" />
