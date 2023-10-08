@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e734a980-cc5e-ee11-be6f-0022480ae939}</formid>
+    <IntroducedVersion>1.0.0.32</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{03d1609b-1716-42af-b0f0-cc10f442dad7}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{d65e2acf-937d-4bc0-8242-09e4e794291d}">
+                  <labels>
+                    <label description="Project Summary" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{cd1d75cb-fbc0-4606-b9d4-baeb820e51b8}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{20184e76-eafd-41c4-ac2e-5c5b13583a9a}" locklevel="0" colspan="1" rowspan="1" labelid="{ccbec397-9226-450c-8b6e-f1a36ef81d53}">
+                        <labels>
+                          <label description="Account" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_account" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ljr_account" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8f3131dd-9dcb-436f-9aac-e9e5f2c4b8fd}" locklevel="0" colspan="1" rowspan="1" labelid="{0300da9d-1b3c-495c-ac2c-190c4e1cf52f}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ljr_name" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{10a8a37f-5d2d-49ce-9701-441bf97cc56f}">
+                  <labels>
+                    <label description="Effective Dates" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{2dc1b770-8da2-458a-893c-63052f4cfe2f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fe7dad8a-f7b7-4dc3-a43a-0f53c2d14447}" locklevel="0" colspan="1" rowspan="1" labelid="{5612d090-6a55-4b64-a53c-dd2e01747237}">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_startdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ljr_startdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7e96f6f3-61c3-459f-b30d-f13930e18bb9}" locklevel="0" colspan="1" rowspan="1" labelid="{6c392d0a-2c71-4e3d-9c86-675b1361f9e2}">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_enddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ljr_enddate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{95214958-b0f8-46d2-a49a-947006032012}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{33c86fbb-12dc-40e6-828f-2d6862433d98}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Project quick create form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c2a42105-0253-ee11-be6f-0022480ae939}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{264f1664-902a-4e0b-aee8-cd0aa48ffedb}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{6431b3a1-cfa4-450d-aaeb-219eb06222d5}">
+                  <labels>
+                    <label description="Basic Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{15f0dd8a-20c8-4824-b37c-6f889132f81b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bd9678fb-5dc0-4c15-bfba-c22b11668e10}" locklevel="0" colspan="1" rowspan="1" labelid="{ade84d52-e809-4d17-9191-f913e84c1da4}">
+                        <labels>
+                          <label description="Account Name" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{90ca5982-56e7-40a8-abd6-d23c7f40cd58}" locklevel="0" colspan="1" rowspan="1" labelid="{fb02908e-b81c-4060-8af8-c4860d729b79}">
+                        <labels>
+                          <label description="Account Number" languagecode="1033" />
+                        </labels>
+                        <control id="accountnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="accountnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{59d2ecf3-40d6-40c6-a60f-93f0de40a10d}" locklevel="0" colspan="1" rowspan="1" labelid="{ef16ebc3-d173-4978-a8c1-b77cfa27151c}">
+                        <labels>
+                          <label description="Website" languagecode="1033" />
+                        </labels>
+                        <control id="websiteurl" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="websiteurl" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{091409bb-0c78-4f1b-a93a-c3f209ad2c99}" locklevel="0" colspan="1" rowspan="1" labelid="{c6127036-0809-46e0-a44a-2251ec681118}">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_duedate" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ljr_duedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d615ee1-ddf8-47e4-8c91-158149b12a9e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Budget Category" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_budgetcategory" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ljr_budgetcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c034323-73be-413e-adea-c3aab6cd88f7}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Category" languagecode="1033" />
+                        </labels>
+                        <control id="accountcategorycode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="accountcategorycode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{6442fdaf-93d2-4b2e-9ea8-68fe57ceafb9}">
+                  <labels>
+                    <label description="Online Access" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{867d3b5a-b0f0-4e58-86f3-55c9f5afb833}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Web Access Site" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_webaccesssite" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="ljr_webaccesssite" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{124d31ca-aa38-4f42-b9e6-42383f842485}" locklevel="0" colspan="1" rowspan="1" labelid="{4899042b-6bd4-4d7b-9f92-a1ca8cb29a24}">
+                        <labels>
+                          <label description="User Name" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_username" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ljr_username" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d883945-6998-42a7-b21a-37c14b2ea53b}" locklevel="0" colspan="1" rowspan="1" labelid="{6425fab8-bcf9-4f96-9639-9b59719f8b2c}">
+                        <labels>
+                          <label description="Password" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_password" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ljr_password" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{9aa072d1-2c18-4910-ba2c-52166521af4a}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{d06e215f-98e3-4d1b-8133-f23905b2c24a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="3" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Payable Account - Quick Create form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

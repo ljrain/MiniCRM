@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{880f3a90-fb65-ee11-9ae7-0022480ae939}" Name="Add New Payable Account (accounts payable)" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/AddNewPayableAccountaccountspayable-880F3A90-FB65-EE11-9AE7-0022480AE939.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>ljr_addnewpayableaccountaccountspayable</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.33</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>Account</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Add New Payable Account (accounts payable)" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{acd13b9f-aaec-4752-9a55-02f7e1573518}">
+      <label languagecode="1033" description="New Payable Account" />
+    </steplabels>
+    <steplabels id="{07676473-d5a3-46c5-acbf-0fc20025013a}">
+      <label languagecode="1033" description="Account  Name" />
+    </steplabels>
+    <steplabels id="{be59cde6-4372-4776-9502-2ba4f5bee7ff}">
+      <label languagecode="1033" description="Account Category" />
+    </steplabels>
+    <steplabels id="{8eae5ebd-e759-4a1a-8987-d594ce5a9120}">
+      <label languagecode="1033" description="Budget Category" />
+    </steplabels>
+    <steplabels id="{a35380fc-36e7-46e4-80e8-c31f3ad0b9a1}">
+      <label languagecode="1033" description="Payable Account Information" />
+    </steplabels>
+    <steplabels id="{aa46c67e-6c8b-4b39-92d6-58ea0fbae89c}">
+      <label languagecode="1033" description="Account Number" />
+    </steplabels>
+    <steplabels id="{0244289e-7c93-4d57-9977-f912e8f8872e}">
+      <label languagecode="1033" description="Web Access Details" />
+    </steplabels>
+    <steplabels id="{731a37c4-6058-4ae6-9a17-5a510e1ba1d5}">
+      <label languagecode="1033" description="Web Access Site" />
+    </steplabels>
+    <steplabels id="{54d0f094-7c2e-4ffd-b25d-44995fac5c68}">
+      <label languagecode="1033" description="User Name" />
+    </steplabels>
+    <steplabels id="{b8feabeb-311b-4a80-84af-379c55178293}">
+      <label languagecode="1033" description="Password" />
+    </steplabels>
+  </labels>
+</Workflow>
