@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3c995979-0557-4439-9181-4ef974f09fce}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{acd13b9f-aaec-4752-9a55-02f7e1573518}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{02b17721-2586-4b8e-b8aa-0eb3d0beeb38}">
+          <labels>
+            <label description="New Payable Account" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{abe2f4ac-d6fe-ee25-3761-58452f576105}" name="StageStep3_section1" labelid="{4a4d4c13-be84-4fec-a122-baecaf72afec}">
+                  <labels>
+                    <label description="New Payable Account" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{07676473-d5a3-46c5-acbf-0fc20025013a}" showlabel="true" visible="true" labelid="{4609583c-fca4-472c-a90d-e171f6a49f1b}">
+                        <labels>
+                          <label description="Account  Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_ljr_addnewpayableaccountaccountspayable:name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="name" relationship="bpf_account_ljr_addnewpayableaccountaccountspayable" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{be59cde6-4372-4776-9502-2ba4f5bee7ff}" showlabel="true" visible="true" labelid="{c4a94b87-896a-473a-8c16-286248561e34}">
+                        <labels>
+                          <label description="Account Category" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_ljr_addnewpayableaccountaccountspayable:accountcategorycode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="accountcategorycode" relationship="bpf_account_ljr_addnewpayableaccountaccountspayable" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8eae5ebd-e759-4a1a-8987-d594ce5a9120}" showlabel="true" visible="true" labelid="{88b27ebd-e5c0-48c3-9d11-094ad26fe723}">
+                        <labels>
+                          <label description="Budget Category" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_ljr_addnewpayableaccountaccountspayable:ljr_budgetcategory" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="ljr_budgetcategory" relationship="bpf_account_ljr_addnewpayableaccountaccountspayable" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{a35380fc-36e7-46e4-80e8-c31f3ad0b9a1}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{b82d26f2-f6dd-473c-a3cf-59eb13b8fd86}">
+          <labels>
+            <label description="Payable Account Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{eeb23da4-0bc0-b944-12a2-17df66f2f533}" name="StageStep11_section1" labelid="{ca7425ef-9a4c-4c9a-a31a-3ebc2ec20e35}">
+                  <labels>
+                    <label description="Payable Account Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aa46c67e-6c8b-4b39-92d6-58ea0fbae89c}" showlabel="true" visible="true" labelid="{27862812-f2bf-469a-8d85-b186330b321d}">
+                        <labels>
+                          <label description="Account Number" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_ljr_addnewpayableaccountaccountspayable:accountnumber" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="accountnumber" relationship="bpf_account_ljr_addnewpayableaccountaccountspayable" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{0244289e-7c93-4d57-9977-f912e8f8872e}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{eeba2b79-b619-44e6-affb-1d49ce259f2c}">
+          <labels>
+            <label description="Web Access Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{c77e6f95-6c79-daf8-126a-598f061e7d4c}" name="StageStep15_section1" labelid="{a45d70a1-f350-4990-b233-48e10476b1ea}">
+                  <labels>
+                    <label description="Web Access Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{731a37c4-6058-4ae6-9a17-5a510e1ba1d5}" showlabel="true" visible="true" labelid="{1e83623f-cbb4-4bd1-86ef-9b6572434807}">
+                        <labels>
+                          <label description="Web Access Site" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_ljr_addnewpayableaccountaccountspayable:ljr_webaccesssite" classid="{71716b6c-711e-476c-8ab8-5d11542bfb47}" datafieldname="ljr_webaccesssite" relationship="bpf_account_ljr_addnewpayableaccountaccountspayable" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54d0f094-7c2e-4ffd-b25d-44995fac5c68}" showlabel="true" visible="true" labelid="{18856f35-f596-46a6-9ebf-d84f6c358911}">
+                        <labels>
+                          <label description="User Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_ljr_addnewpayableaccountaccountspayable:ljr_username" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="ljr_username" relationship="bpf_account_ljr_addnewpayableaccountaccountspayable" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8feabeb-311b-4a80-84af-379c55178293}" showlabel="true" visible="true" labelid="{d2ea215e-abd1-4e28-95f2-b1cbd7cb8f1b}">
+                        <labels>
+                          <label description="Password" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_ljr_addnewpayableaccountaccountspayable:ljr_password" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="ljr_password" relationship="bpf_account_ljr_addnewpayableaccountaccountspayable" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

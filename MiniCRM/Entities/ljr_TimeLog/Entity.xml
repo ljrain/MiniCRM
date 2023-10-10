@@ -1206,6 +1206,7 @@
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
       <IsSolutionAware>0</IsSolutionAware>
+      <HasRelatedFeedback>True</HasRelatedFeedback>
       <HasRelatedActivities>True</HasRelatedActivities>
     </entity>
   </EntityInfo>

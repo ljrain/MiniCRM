@@ -29,6 +29,9 @@
           </filter>
           <filter type="or" isquickfindfields="1">
             <condition attribute="ljr_name" operator="like" value="{0}" />
+            <condition attribute="statecode" operator="like" value="{0}" />
+            <condition attribute="statuscode" operator="like" value="{0}" />
+            <condition attribute="ljr_workshopvalue" operator="eq" value="{2}" />
           </filter>
           <attribute name="ljr_workshopvalue" />
         </entity>
