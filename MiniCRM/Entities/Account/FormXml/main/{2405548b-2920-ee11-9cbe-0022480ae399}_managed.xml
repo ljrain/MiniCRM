@@ -79,6 +79,14 @@
                         <control id="parentaccountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentaccountid" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{09b4dd78-448e-4249-bfb6-6a12597631f5}" locklevel="0" rowspan="1" colspan="1">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ljr_budgetcategory" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ljr_budgetcategory" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
                 <section name="ADDRESS" showlabel="true" locklevel="0" showbar="false" id="{cc0fe06e-4b5f-4648-A62d-84d1514e1fc5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{42078c6b-b338-490d-887d-3f849335f606}">
@@ -291,14 +299,6 @@
                           <label description="" languagecode="1033" />
                         </labels>
                         <control id="ljr_password" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ljr_password" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{0bf7e7ce-c93f-4dec-81c1-12b56626476d}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                        <control id="ljr_username" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ljr_username" disabled="false" />
                       </cell>
                     </row>
                   </rows>

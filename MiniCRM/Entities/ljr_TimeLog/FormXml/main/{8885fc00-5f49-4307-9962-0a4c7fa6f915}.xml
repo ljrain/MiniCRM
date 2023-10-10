@@ -212,6 +212,49 @@
             </column>
           </columns>
         </tab>
+        <tab name="tab_2" id="1ca694ce-297c-44e4-a6bb-17d4f96c4178" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Feedback" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" id="228b9855-b839-438c-97e5-ca38c3df7091" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Feedback" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{34bacc37-1da4-49f5-939a-db9e4780dab5}" rowspan="4" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1695994432842" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="Subgrid_new_2" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>feedback</TargetEntityType>
+                            <ViewId>{B550257E-5132-4ABD-A8E1-6285A713D9E1}</ViewId>
+                            <ViewIds>{B550257E-5132-4ABD-A8E1-6285A713D9E1}</ViewIds>
+                            <RelationshipName>ljr_timelog_Feedback</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
       </tabs>
       <header id="{5098c86e-21ab-4d4e-bbc0-56686ec38cb8}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
         <rows>

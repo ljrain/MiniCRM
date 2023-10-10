@@ -14,6 +14,7 @@
     <AppModuleComponent type="1" schemaName="appointment" />
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="1" schemaName="email" />
+    <AppModuleComponent type="1" schemaName="feedback" />
     <AppModuleComponent type="1" schemaName="ljr_project" />
     <AppModuleComponent type="1" schemaName="ljr_timelog" />
     <AppModuleComponent type="1" schemaName="ljr_workshop" />
@@ -28,6 +29,8 @@
     <AppModuleComponent type="26" id="{38a21ffb-4e32-4038-beb9-03172a0dd034}" />
     <AppModuleComponent type="26" id="{2d1187c4-23fe-4bb5-9647-43bb1c6ddbd1}" />
     <AppModuleComponent type="26" id="{a9af0ab8-861d-4cfa-92a5-c6281fed7fab}" />
+    <AppModuleComponent type="26" id="{29d37f59-1353-ee11-be6f-0022480ae399}" />
+    <AppModuleComponent type="26" id="{4aaddea9-ff65-ee11-9ae7-0022480ae939}" />
     <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
     <AppModuleComponent type="26" id="{73bc2d9b-4e0e-424c-8839-ed59d6817e3a}" />
     <AppModuleComponent type="26" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
@@ -46,6 +49,8 @@
     <AppModuleComponent type="60" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
     <AppModuleComponent type="60" id="{2205c86d-ed88-4a2f-a447-3b86a8781f2e}" />
     <AppModuleComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+    <AppModuleComponent type="60" id="{91af2e5b-ff52-ee11-be6f-0022480ae399}" />
+    <AppModuleComponent type="60" id="{c2a42105-0253-ee11-be6f-0022480ae939}" />
     <AppModuleComponent type="60" id="{a82cdefd-2920-ee11-9cbe-0022480ae939}" />
     <AppModuleComponent type="60" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
     <AppModuleComponent type="60" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}" />
